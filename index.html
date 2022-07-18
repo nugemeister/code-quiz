@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Quiz</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header>
+        <a href="./highscores.html" class="button" id="left"><h2>High Scores!</h2></a>
+        <div id="right">
+            <h2>Timer: <span id="timer"></span></h2>
+        </div>
+    </header>
+    <main>
+        <div id="landing">
+            <div id ="intro">
+                <h1>Welcome to the Coding Quiz!</h1>
+                <p>Welcome to the Javascript Coding Quiz game! Let's see how much you really know about Javascript...</p>
+                <ul>
+                        <li>Click "Begin Quiz" to get started!</li>
+                        <li>Select the correct answers as the quiz progresses (keep an eye on the clock!).</li>
+                        <li>Correct answers earn you a point, incorrect answers deduct 5 seconds each. </li>
+                </ul>
+                <p>Good luck, let's play!</p>
+                <div id="begin-button" class ="button">Begin Quiz</div>
+            </div>
+            <div id="quiz">
+            </div>
+            <div id="final-score">
+                <h3>Quiz Complete!</h3>
+                <h3>Your score is: <span id = "final-score"></span></h3>
+                <form id="score-form">
+                    <label for="name">Enter Your Name: </label>
+                    <input type="text" name="initials"  id="initials" />
+                    <button id="submit-score", class="button">Submit!</button>
+                </form>
+        </div>
+    </main>
+    <script src="./assets/js/questions.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
