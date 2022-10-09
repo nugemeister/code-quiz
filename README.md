@@ -31,13 +31,6 @@ THEN I can save my initials and my score
 
 ## Link to Deployed Application
 
-The following link takes you to the deployed application: 
-<br></br>
-
-## Finished Page for Reference
-
-The following image shows the web application's appearance and functionality: https://nugemeister.github.io/password-generator/
-
-![This is a screenshot of the live webpage.](./Assets/images/03-javascript-homework-screenshot.png)
+The following link takes you to the deployed application: https://nugemeister.github.io/code-quiz/
 <br></br>
 
